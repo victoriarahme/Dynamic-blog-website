@@ -28,3 +28,21 @@ pure-g {
     width: 33.33%;
     padding: 10px;
 }
+/* Added media Queries for Mobile Devices */
+
+@media only screen and (max-width: 600px) {
+    header, footer {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+}
