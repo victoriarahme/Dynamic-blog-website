@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit new blog</title>
+</head>
+	
+<body>
+<form action="#" method="POST">
+
+
+
+	<label for="title">Blog post title:</label> <br>
+	<input type="text" id="title" title="title" required> 
+	
+	<br><br>
+	
+	<label for="content">Blog content:</label> <br>
+	<textarea id="content" name="content" rows="4" cols="50" required></textarea><br><br>
+
+
+    <label for="image">Insert image: (optional)</label> <br>
+  <input type="file" id="image" name="image"><br> <br>
+  <input type="submit" value="Submit">
+
+  <form onsubmit="return validationCheck()">
+    <input type="text" name="title" placeholder="Blog title required" required>
+    <textarea name="content" placeholder="Content required" required></textarea>
+    <input type="file" name="image">
+
+    <button type="submit">Submit</button>
+  </form>
+	
+	</form>
